@@ -1,6 +1,6 @@
 import '../index.css';
 import Content from './Content'
-// import Menu from './Menu'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <div className="main">
         App.jsx
         <Content />
+        <Footer />
       </div>
     </>
   );
