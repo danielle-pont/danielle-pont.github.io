@@ -6,9 +6,22 @@ function Footer() {
       <div className="footer">
       <h1>FOOTER COMPONENT</h1>
       <ul>
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
+        <NavLink className="links" to="/"><b>Company</b></NavLink>
+          <li>
+            <NavLink className="links" to="/">Company</NavLink>
+          </li>
+      </ul>
+      <ul>
+        <NavLink className="links" to="/"><b>Features</b></NavLink>
+          <li>
+          <NavLink className="links" to="/">Features</NavLink>
+          </li>
+      </ul>
+      <ul>
+        <NavLink className="links" to="/"><b>Resources</b></NavLink>
+          <li>
+            <NavLink className="links" to="/">Resources</NavLink>
+          </li>
       </ul>
       </div>
       <div className="main">
