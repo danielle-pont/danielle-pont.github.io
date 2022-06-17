@@ -1,5 +1,5 @@
 import '../index.css';
-import Navbar from './Navbar'
+import Content from './Content'
 // import Menu from './Menu'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="main">
         App.jsx
-        <Navbar />
+        <Content />
       </div>
     </>
   );

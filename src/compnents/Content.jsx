@@ -1,7 +1,7 @@
-function Navbar() {
+function Content() {
   return (
     <>
-      <div className="Navbar">
+      <div className="Content">
       <h1>CONTENT COMPONENT</h1>
         <img src="/images/header.png" alt='woman smiling at camera' />
       </div>
@@ -11,4 +11,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Content
