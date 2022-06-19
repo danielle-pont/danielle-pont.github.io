@@ -4,6 +4,10 @@ function Footer() {
   return (
     <>
       <div className="footer">
+      <div className='left side'>
+        <div className='logo'>
+          <img src="/images/logo.svg" alt='The Relab logo' />
+        </div>
         <div className='copyright'>
           <p>Privacy Terms © Property Portal Limited (Relab™) 2021. All rights reserved</p>
         </div>
@@ -14,10 +18,8 @@ function Footer() {
         <NavLink className="links" to="/"><img src="/images/twitter.svg" alt='Twitter logo' /></NavLink>
         <NavLink className="links" to="/"><img src="/images/linkedin.svg" alt='Linkedin logo' /></NavLink>
         </div>
-        <div className='logo'>
-          <img src="/images/logo.svg" alt='The Relab logo' />
-        </div>
-        <div className='container'>
+      </div>
+        <div className='navContainer'>
         <ul className='company'>
           <NavLink className="links" to="/"><b>Company</b></NavLink>
             <li>
@@ -30,7 +32,7 @@ function Footer() {
               <NavLink className="links" to="/">Careers</NavLink>
             </li>
         </ul>
-        <ul>
+        <ul className='features'>
           <NavLink className="links" to="/"><b>Features</b></NavLink>
             <li>
             <NavLink className="links" to="/">Relab Planning Report(RPR)</NavLink>
@@ -48,7 +50,7 @@ function Footer() {
             <NavLink className="links" to="/">Advanced Insights(ASI)</NavLink>
             </li>
         </ul>
-        <ul>
+        <ul className='resources'>
           <NavLink className="links" to="/"><b>Resources</b></NavLink>
             <li>
               <NavLink className="links" to="/">Product Training</NavLink>
