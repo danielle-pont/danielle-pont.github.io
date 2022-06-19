@@ -19,6 +19,14 @@ body {
   list-style-type: none;
 }
 
+.copyright {
+  color: white;
+}
+
+.social {
+  color: white;
+}
+
 .container {
   flex-grow: 1;
 }
