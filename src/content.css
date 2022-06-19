@@ -5,13 +5,28 @@ img {
 .statement {
   position: absolute;
   max-width: 85vh;
-  top: 70px;
-  right: 1px;
+  top: 200px;
+  right: 10px;
+}
+
+.slogan {
+  font-family: 'RecifeText';
+  font-style: italic;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.boldText {
+  font-family: 'Beatrice';
+  font-style: normal;
+  font-size: 40px;
 }
 
 .blurb {
   white-space: pre-line;
+  font-family: 'Roboto';
   font-size: 15px;
+  font-weight: 400;
 }
 
 
