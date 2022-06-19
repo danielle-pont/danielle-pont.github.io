@@ -4,12 +4,9 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <div className='left side'>
+        <div className='leftSide'>
           <div className='logo'>
             <img src="/images/logo.svg" alt='The Relab logo' />
-          </div>
-          <div className='copyright'>
-            <p>Privacy Terms © Property Portal Limited (Relab™) 2021. All rights reserved</p>
           </div>
           <div className='social'>
             <NavLink className="links" to="/"><img src="/images/instagram.svg" alt='Instagram logo' /></NavLink>
@@ -17,6 +14,9 @@ function Footer() {
             <NavLink className="links" to="/"><img src="/images/youtube.svg" alt='Youtube logo' /></NavLink>
             <NavLink className="links" to="/"><img src="/images/twitter.svg" alt='Twitter logo' /></NavLink>
             <NavLink className="links" to="/"><img src="/images/linkedin.svg" alt='Linkedin logo' /></NavLink>
+          </div>
+          <div className='copyright'>
+            <p>Privacy Terms © Property Portal Limited (Relab™) 2021. All rights reserved</p>
           </div>
         </div>
           <div className='navContainer'>
