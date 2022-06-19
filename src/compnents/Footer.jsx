@@ -8,7 +8,11 @@ function Footer() {
           <p>Privacy Terms © Property Portal Limited (Relab™) 2021. All rights reserved</p>
         </div>
         <div className='social'>
-          <img src="/images/instagram.svg" alt='The Instagram logo' />
+        <NavLink className="links" to="/"><img src="/images/instagram.svg" alt='Instagram logo' /></NavLink>
+        <NavLink className="links" to="/"><img src="/images/facebook.svg" alt='Facebook logo' /></NavLink>
+        <NavLink className="links" to="/"><img src="/images/youtube.svg" alt='Youtube logo' /></NavLink>
+        <NavLink className="links" to="/"><img src="/images/twitter.svg" alt='Twitter logo' /></NavLink>
+        <NavLink className="links" to="/"><img src="/images/linkedin.svg" alt='Linkedin logo' /></NavLink>
         </div>
         <div className='logo'>
           <img src="/images/logo.svg" alt='The Relab logo' />
