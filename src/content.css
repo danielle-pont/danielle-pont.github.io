@@ -1,0 +1,18 @@
+img {
+  max-height: 100vh;
+}
+
+.statement {
+  position: absolute;
+  max-width: 85vh;
+  top: 70px;
+  right: 1px;
+}
+
+.blurb {
+  white-space: pre-line;
+  font-size: 15px;
+}
+
+
+

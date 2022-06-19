@@ -6,12 +6,10 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <img src="../../images/header.png" alt='woman smiling at camera' /> */}
-      </div>
-      <div className="main">
-        App.jsx
-        <Content />
-        <Footer />
+        <div className="main">
+          <Content />
+          <Footer />
+        </div>
       </div>
     </>
   );
