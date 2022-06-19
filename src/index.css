@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -9,26 +5,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Content */
 
 .content img {
   max-height: 200px;
 }
 
 /* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  list-style-type: none;
+}
 
-.links {
-  color: black;
+.container {
+  flex-grow: 1;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .links {
+  color: white;
   text-decoration: none;
 }
 
-.links:hover {
+.footer .links:hover {
     text-decoration: underline;
-}
-
-li {
-  list-style-type: none;
 }

@@ -5,7 +5,11 @@ function Footer() {
     <>
       <div className="footer">
       <h1>FOOTER COMPONENT</h1>
-      <ul>
+      <div className='copyright'>
+      <img src="/images/logo.svg" alt='the Relab logo' />
+      </div>
+      <div className='container'>
+      <ul className='company'>
         <NavLink className="links" to="/"><b>Company</b></NavLink>
           <li>
             <NavLink className="links" to="/">Company</NavLink>
@@ -23,6 +27,7 @@ function Footer() {
             <NavLink className="links" to="/">Resources</NavLink>
           </li>
       </ul>
+      </div>
       </div>
     </>
   );
