@@ -24,8 +24,6 @@ function Footer() {
           </li>
       </ul>
       </div>
-      <div className="main">
-      </div>
     </>
   );
 }
