@@ -15,6 +15,7 @@ body {
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   background-color: black;
   list-style-type: none;
   min-height: 100vh;
@@ -45,8 +46,8 @@ flex-basis: 100%;
 }
 
 .copyright {
-  color: white;
-  font-size: 10px;
+  color: grey;
+  font-size: 2vh;
 }
 
 .social {
@@ -54,11 +55,20 @@ flex-basis: 100%;
   flex-grow: 1;
 }
 
-.footer .links {
+.links {
   color: white;
   text-decoration: none;
 }
 
-.footer .links:hover {
+.links:hover {
     text-decoration: underline;
+}
+
+.linkItems {
+  color: grey;
+  text-decoration: none;
+}
+
+.linkItems:hover {
+  text-decoration: underline;
 }
