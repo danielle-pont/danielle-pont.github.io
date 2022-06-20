@@ -31,5 +31,40 @@ img {
   font-weight: 400;
 }
 
+/* Benefit list styling */
+
+.title {
+  width: 70%;
+  margin-top: 60px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: 'RecifeText';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 55px;
+  color: black;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  max-width: 60%;
+  z-index: 1;
+}
+
+.benefitsList {
+  max-width: 70%;
+}
+
+.benefits {
+  margin: 70px;
+  padding-left: 30px;
+  list-style-type: style;
+}
+
+
 
 
