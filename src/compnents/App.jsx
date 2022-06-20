@@ -8,10 +8,10 @@ function App() {
     <>
       <div className="App">
         <div className="main">
-          <div className='Navbar' style={{ position: "relative", zIndex: "2" }}>
+          <div className='Navbar'>
             <Navbar />
           </div>
-          <div className='Content' style={{ position: "relative", zIndex: "1" }}>
+          <div className='Content'>
             <Content />
           </div>
           <Footer />

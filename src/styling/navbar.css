@@ -1,12 +1,32 @@
 .navbar {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 10px;
   position: absolute;
   z-index: 2;
   top: 0;
-  background-color: green;
+}
+
+.navLinks {
+  width: 38%;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Beatrice';
+  font-weight: 500;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+
+.navlogo img {
+  height: 25px;
+  padding-left: 45px;
 }
