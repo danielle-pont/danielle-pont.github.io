@@ -1,3 +1,5 @@
+import Features from './Features'
+
 import '../styling/content.css';
 
 function Content() {
@@ -28,6 +30,9 @@ function Content() {
               <p className='benefitNumber'><p className='numberTitle'>Benefits</p>03.</p>
                 <p><p className='benefitTitle'><b>Uncover hidden gems</b></p>Search using your own unique parameters and exact specifications, delivering you bespoke results that will set you apart from your competitors.</p>
             </div>
+          </div>
+          <div className='featureComponent'>
+            <Features />
           </div>
         </div>
 
