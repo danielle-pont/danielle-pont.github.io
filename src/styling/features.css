@@ -17,6 +17,21 @@
   margin-left: 50px;
 }
 
+@media only screen and (max-width: 500px) {
+  .descriptions {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .appFeatures img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+
 .featureTitle {
   font-family: 'RecifeText';
   font-style: italic;

@@ -10,6 +10,12 @@
   letter-spacing: 1px;
 }
 
+@media only screen and (max-width: 500px) {
+  .button {
+    display: none;
+  }
+}
+
 .trialButton {
   background-color: #4cafaa;
   border: none;

@@ -42,6 +42,37 @@
   font-size: 40px;
 }
 
+@media only screen and (max-width: 500px) {
+  .statment {
+    white-space: pre-line;
+    position: absolute;
+    max-width: 50%;
+    line-height: 25px;
+  }
+
+  .slogan {
+    font-family: 'RecifeText';
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .boldText {
+    font-family: 'Beatrice';
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .blurb {
+    white-space: pre-line;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
 .blurb {
   white-space: pre-line;
   font-family: 'Roboto';
@@ -67,6 +98,12 @@
   color: black;
 }
 
+@media only screen and (max-width: 500px) {
+  .title {
+    display: none;
+  }
+}
+
 .benefitsList {
   margin: 150px 150px 0px 150px;
   position: relative;
@@ -74,6 +111,14 @@
   flex-direction: column;
   z-index: 1;
   line-height: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .benefitsList {
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .benefit {

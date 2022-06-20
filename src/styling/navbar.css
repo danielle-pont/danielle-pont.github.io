@@ -8,6 +8,14 @@
   top: 0;
 }
 
+@media only screen and (max-width: 500px) {
+  .navbar {
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+}
+
 .navLinks {
   width: 38%;
   padding-left: 40px;
@@ -21,6 +29,12 @@
   white-space: nowrap;
 }
 
+@media only screen and (max-width: 500px) {
+  .navLinks {
+    display: none;
+  }
+}
+
 .navLink {
   text-decoration: none;
   color: black;
@@ -29,4 +43,11 @@
 .navlogo img {
   height: 25px;
   padding-left: 45px;
+}
+
+@media only screen and (max-width: 500px) {
+  .navlogo img {
+    position: fixed;
+    height: 20px;
+  }
 }
