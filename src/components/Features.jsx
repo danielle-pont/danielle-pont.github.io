@@ -1,4 +1,4 @@
-import '../styling/nextFeatures.css';
+import '../styling/features.css';
 
 function Features() {
   return (

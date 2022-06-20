@@ -1,4 +1,5 @@
 import NextFeature from './NextFeature'
+import Features from './Features'
 
 import '../styling/content.css';
 
@@ -34,6 +35,9 @@ function Content() {
           <div className='featureComponent'>
             <NextFeature />
           </div>
+        </div>
+        <div className='deviceDisplays'>
+          <Features />
         </div>
 
       </div>
