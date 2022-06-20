@@ -6,10 +6,12 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        Why Relab 
-        Features 
-        Resourses
-        Pricing
+        <div className="navLinks">
+          <NavLink className="navLink" to="/">Why Relab</NavLink>
+          <NavLink className="navLink" to="/">Features</NavLink>
+          <NavLink className="navLink" to="/">Resourses</NavLink>
+          <NavLink className="navLink" to="/">Pricing</NavLink>
+        </div>
       </div>
     </>
   );
