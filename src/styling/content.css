@@ -35,7 +35,7 @@ img {
 
 .title {
   width: 70%;
-  margin-top: 60px;
+  top: 900px;
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -49,20 +49,22 @@ img {
 }
 
 .content {
-  position: relative;
-  display: flex;
   max-width: 60%;
-  z-index: 1;
 }
 
 .benefitsList {
-  max-width: 70%;
+  margin: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  z-index: 1;
 }
 
 .benefits {
   margin: 70px;
   padding-left: 30px;
-  list-style-type: style;
+  list-style: none;
 }
 
 
