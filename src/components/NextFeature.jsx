@@ -10,9 +10,6 @@ function NextFeature() {
           <img className='close' src='/images/close.png' alt='Close the deal' />
         </div>
         </div>
-        {/* <div className='bottom'>
-          <img src='/images/conduct.png' alt='Conduct Due Diligence' />
-        </div> */}
       </div>
     </>
   );
