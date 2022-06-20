@@ -1,3 +1,80 @@
 .appFeatures {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(247, 245, 242);
 }
+
+.descriptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'roboto';
+  line-height: 20px;
+  width: 45%;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.featureTitle {
+  font-family: 'RecifeText';
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.featureDesc {
+  margin-top: 30px;
+}
+
+.device1 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 80px 70px 75px 100px;
+}
+
+.device1 img {
+  width: 40%;
+}
+
+.device2 {
+  display: flex;
+  flex-direction: row;
+  margin: 80px 70px 75px 100px;
+}
+
+.device2 img {
+  width: 40%;
+}
+
+.device3 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 80px 70px 75px 100px;
+}
+
+.device3 img {
+  width: 40%;
+}
+
+.number {
+  font-size: 60px;
+  font-family: 'RecifeText';
+  font-style: italic;
+  font-weight: 400;
+  padding-right: 20px;
+  margin: 0px;
+  line-height: 20px;
+  color: #77cdc8;
+}
+
+.numberTitle {
+  font-family: 'roboto';
+  font-size: 13px;
+  font-style:normal;
+  font-weight: 800;
+  color: black;
+}
+

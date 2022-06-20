@@ -1,18 +1,3 @@
-/* Right Side Images */
-/*
-.featuresRight {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-
-.rightSide {
-  display: flex;
-  flex-direction: column;
-  z-index: 4;
-}
-*/
-
 .featuresRight {
   display: flex;
   flex-direction: row;
