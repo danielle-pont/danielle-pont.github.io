@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
+import Button from './Button'
+
 import '../styling/navbar.css';
 
 function Navbar() {
@@ -15,6 +17,9 @@ function Navbar() {
           <NavLink className="navLink" to="/">Resourses</NavLink>
           <NavLink className="navLink" to="/">Pricing</NavLink>
           <NavLink className="navLink" to="/">中文</NavLink>
+        </div>
+        <div className='button'>
+          <Button />
         </div>
       </div>
     </>
