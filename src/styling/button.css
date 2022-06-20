@@ -1,0 +1,44 @@
+.button {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 30px;
+  font-family: 'Beatrice';
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.trialButton {
+  background-color: #4cafaa;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 2px;
+  cursor: pointer;
+}
+
+.trialButton a{
+  text-decoration: none;
+  color: white;
+}
+
+.loginButton {
+  border: solid 1px;
+  border-radius: 6px;
+  padding: 4px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 2px;
+  cursor: pointer;
+}
+
+.loginButton a{
+  text-decoration: none;
+  color: black;
+}

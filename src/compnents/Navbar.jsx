@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Button from './Button'
 
 import '../styling/navbar.css';
+import '../styling/button.css';
 
 function Navbar() {
   return (
