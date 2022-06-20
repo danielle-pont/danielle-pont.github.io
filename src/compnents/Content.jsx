@@ -1,4 +1,4 @@
-import Features from './Features'
+import NextFeature from './NextFeature'
 
 import '../styling/content.css';
 
@@ -32,7 +32,7 @@ function Content() {
             </div>
           </div>
           <div className='featureComponent'>
-            <Features />
+            <NextFeature />
           </div>
         </div>
 
