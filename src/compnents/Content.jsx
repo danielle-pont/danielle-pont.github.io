@@ -1,4 +1,4 @@
-import '../content.css';
+import '../styling/content.css';
 
 function Content() {
   return (
