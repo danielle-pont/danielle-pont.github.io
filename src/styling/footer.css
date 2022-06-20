@@ -59,6 +59,7 @@ padding-left: 10vh;
 }
 
 .leftSide {
+  width: 100%;
   padding-left: 25vh;
   padding-right: 35vh;
 }
@@ -80,6 +81,7 @@ padding-left: 10vh;
 }
 
 .copyright {
+  width: 100%;
   font-family: 'work sans';
   color: grey;
   font-size: 8px;

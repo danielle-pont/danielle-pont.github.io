@@ -1,7 +1,11 @@
+.Content {
+  background-color: rgb(232, 232, 232);
+}
+
 img {
   position: static;
-  max-height: 100vh;
-  top: 1px;
+  width: 100%;
+  top: 0;
 }
 
 .statement {
@@ -61,10 +65,31 @@ img {
   z-index: 1;
 }
 
-.benefits {
-  margin: 70px;
-  padding-left: 30px;
-  list-style: none;
+.benefit {
+  width: 90%;
+  display: flex;
+}
+
+.benefitNumber {
+  font-size: 60px;
+  font-family: 'RecifeText';
+  font-style: italic;
+  padding-right: 20px;
+  line-height: 20px;
+  color: #4cafaa;
+}
+
+.benefitTitle {
+  line-height: 2px;
+  padding-top: 40px;
+}
+
+.numberTitle {
+  font-family: 'roboto';
+  font-size: 13px;
+  font-style:normal;
+  font-weight: 800;
+  color: black;
 }
 
 
