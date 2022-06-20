@@ -1,7 +1,3 @@
-.Content {
-  background-color: rgb(232, 232, 232);
-}
-
 img {
   position: static;
   width: 100%;
@@ -82,6 +78,7 @@ img {
 .benefitTitle {
   line-height: 2px;
   padding-top: 40px;
+  white-space: nowrap;
 }
 
 .numberTitle {
