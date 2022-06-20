@@ -10,6 +10,20 @@ function Content() {
         </div>
         <img src="/images/header.png" alt='woman smiling at camera' />
       </div>
+      <div className='content'>
+        <h1>Benefits</h1>
+        <ul className='benefits'>
+          <li>Search all in one place
+            <li>Skip jumping from site to site to find what you need. Access all your property info in one easy to navigate platform.</li>
+          </li>
+          <li>Find property opportunities faster
+            <li>Find the best deals before anyone else. Save time on admin and outsmart your competition.</li>
+          </li>
+          <li>Uncover hidden gems
+            <li>Search using your own unique parameters and exact specifications, delivering you bespoke results that will set you apart from your competitors.</li>
+          </li> 
+        </ul>
+      </div>
     </>
   );
 }
